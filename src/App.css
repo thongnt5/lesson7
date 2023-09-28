@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mooli', sans-serif;
+}
+body{
+  text-align: center;
+}
+.app{
+  background-color: rgb(189, 100, 37);
+  max-width: 500px;
+  height: 700px;
+  margin: auto;
+}
+h1{
+  color: white;
+}
+.input-content{
+  width: 430px;
+  height: 50px;
+  background-color: rgb(217, 189, 112);
+  margin: auto;
+}
+.tab-container{
+  display: flex;
+  gap: 80px;
+}
+.error{
+  color: red;
+}
+.todos-content{
+  display: flex;
+  gap: 10px;
+}
+.todos-content input {
+  width: 100px;
+}
+.actions{
+ 
+}
+.todos-content .button-add{
+  float: right;
+}
+.todos-content{
+  width: 430px;
+    height: 100px;
+    
+  background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+}
+.done{
+  background-color: gray;
+  
+}
+.tab-todos .nav{
+  margin-top: 20px;
+  margin-left: 35px;
+  display: flex;
+}
+.nav-link{
+  margin: 10px;
+}
